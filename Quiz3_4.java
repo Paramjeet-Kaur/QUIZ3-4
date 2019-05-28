@@ -12,10 +12,22 @@ public class Quiz3_4 {
 		System.out.println("Last 15 characters of string are:" +subString);
 		
 		
+		int count[] = new int[144]; 
+		  
+        int len = sentence.length(); 
+  
+       
+        for (int i = 0; i < len; i++) 
+            count[sentence.charAt(i)]++; 
+  
+       
+        char ch[] = new char[sentence.length()]; 
+               
+        } 
+    } 
 		
-		
-		
-
+	
+	
 	}
 
-}
+
